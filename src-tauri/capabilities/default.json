@@ -1,0 +1,10 @@
+{
+  "identifier": "main-window",
+  "description": "Local owner workspace; file writes are scoped by the save dialog.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "dialog:allow-save",
+    "fs:allow-write-text-file"
+  ]
+}

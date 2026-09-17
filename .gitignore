@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.local
+.env*
+!.env.example
+src-tauri/target/
+*.db
+*.db-*
+*.sqlite*
+backups/
+*.log
+.DS_Store
+*.tsbuildinfo
+test-results/
